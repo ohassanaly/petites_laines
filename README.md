@@ -1,6 +1,6 @@
 # Cozy Stitches - Static Site
 
-This is a simple static website to showcase handmade items (scarves, socks, etc.). It includes:
+This is a simple static website to showcase handmade items. It includes:
 
 - Welcome page: `index.html`
 - Shop page: `shop.html`
@@ -8,14 +8,7 @@ This is a simple static website to showcase handmade items (scarves, socks, etc.
 
 ## How to open
 
-No build is required. Double-click any of the HTML files, or open with a local server:
-
-```bash
-# Using PowerShell
-pwsh -NoProfile -Command "Start-Process http://localhost:5500; cd $PWD; npx --yes live-server --port=5500 --no-css-inject"
-```
-
-If you prefer without a server, open `index.html` in your browser.
+➡️ [website](https://ohassanaly.github.io/petites_laines)
 
 ## Customize
 
