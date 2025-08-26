@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Shop | Cozy Stitches</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<header class="site-header">
+		<div class="container header-inner">
+			<a class="brand" href="index.html">Cozy Stitches</a>
+			<nav class="main-nav" aria-label="Primary">
+				<a href="index.html">Welcome</a>
+				<a href="shop.html" class="active">Shop</a>
+				<a href="about.html">Who am I</a>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<section class="page-header">
+			<div class="container">
+				<h1>Shop</h1>
+				<p>Browse a selection of handmade scarves, socks, and more.</p>
+			</div>
+		</section>
+
+		<section class="product-grid container">
+			<div class="product-card">
+				<div class="product-media placeholder-img" aria-hidden="true"></div>
+				<h3>Classic Wool Scarf</h3>
+				<p class="price">$39</p>
+				<button class="btn btn-primary" type="button">Contact to buy</button>
+			</div>
+			<div class="product-card">
+				<div class="product-media placeholder-img" aria-hidden="true"></div>
+				<h3>Cozy Ribbed Socks</h3>
+				<p class="price">$24</p>
+				<button class="btn btn-primary" type="button">Contact to buy</button>
+			</div>
+			<div class="product-card">
+				<div class="product-media placeholder-img" aria-hidden="true"></div>
+				<h3>Cable Knit Scarf</h3>
+				<p class="price">$45</p>
+				<button class="btn btn-primary" type="button">Contact to buy</button>
+			</div>
+			<div class="product-card">
+				<div class="product-media placeholder-img" aria-hidden="true"></div>
+				<h3>Warm House Socks</h3>
+				<p class="price">$28</p>
+				<button class="btn btn-primary" type="button">Contact to buy</button>
+			</div>
+		</section>
+
+		<section class="cta-banner">
+			<div class="container banner-inner">
+				<p>Looking for custom colors or sizes?</p>
+				<a class="btn" href="about.html#contact">Get in touch</a>
+			</div>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<div class="container footer-inner">
+			<p>© <span id="year"></span> Cozy Stitches</p>
+			<p><a href="shop.html">Shop</a> · <a href="about.html">Who am I</a></p>
+		</div>
+	</footer>
+
+	<script>
+		const yearEl = document.getElementById('year');
+		if (yearEl) yearEl.textContent = new Date().getFullYear();
+	</script>
+</body>
+</html> 

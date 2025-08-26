@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Who am I | Cozy Stitches</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<header class="site-header">
+		<div class="container header-inner">
+			<a class="brand" href="index.html">Cozy Stitches</a>
+			<nav class="main-nav" aria-label="Primary">
+				<a href="index.html">Welcome</a>
+				<a href="shop.html">Shop</a>
+				<a href="about.html" class="active">Who am I</a>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<section class="page-header">
+			<div class="container">
+				<h1>Hi, I'm the maker behind Cozy Stitches</h1>
+				<p>I knit and sew small-batch accessories with a focus on warmth, comfort, and simple, timeless style.</p>
+			</div>
+		</section>
+
+		<section class="container two-col">
+			<div>
+				<h2>My story</h2>
+				<p>I started knitting as a hobby and fell in love with the craft. Over the years, I refined my techniques and began creating pieces for friends and family. Now I offer a rotating selection of handmade items ready to ship.</p>
+				<p>Each piece is made by hand using carefully chosen yarns and fabrics. I love experimenting with textures and patterns that are cozy to wear and easy to care for.</p>
+			</div>
+			<div class="placeholder-img" aria-hidden="true"></div>
+		</section>
+
+		<section id="contact" class="contact">
+			<div class="container">
+				<h2>Contact</h2>
+				<p>Interested in an item or a custom request? Reach out:</p>
+				<ul class="contact-list">
+					<li>Email: <a href="mailto:you@example.com">you@example.com</a></li>
+					<li>Instagram: <a href="#" rel="noopener">@cozy.stitches</a></li>
+				</ul>
+			</div>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<div class="container footer-inner">
+			<p>© <span id="year"></span> Cozy Stitches</p>
+			<p><a href="shop.html">Shop</a> · <a href="about.html">Who am I</a></p>
+		</div>
+	</footer>
+
+	<script>
+		const yearEl = document.getElementById('year');
+		if (yearEl) yearEl.textContent = new Date().getFullYear();
+	</script>
+</body>
+</html> 
